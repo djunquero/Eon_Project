@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking Prototype.CSharp.Plugins", "Networking Prototype.CSharp.Plugins.csproj", "{D33ECDFE-6F28-38B8-D030-E02E07AF051A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking Prototype.CSharp", "Networking Prototype.CSharp.csproj", "{C58F8939-718B-8D2E-32BE-69203E029072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking Prototype.CSharp.Editor", "Networking Prototype.CSharp.Editor.csproj", "{A699BDBC-BA52-5BD5-DA92-B20E0F0F7886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D33ECDFE-6F28-38B8-D030-E02E07AF051A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33ECDFE-6F28-38B8-D030-E02E07AF051A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33ECDFE-6F28-38B8-D030-E02E07AF051A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33ECDFE-6F28-38B8-D030-E02E07AF051A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58F8939-718B-8D2E-32BE-69203E029072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58F8939-718B-8D2E-32BE-69203E029072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58F8939-718B-8D2E-32BE-69203E029072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58F8939-718B-8D2E-32BE-69203E029072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A699BDBC-BA52-5BD5-DA92-B20E0F0F7886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A699BDBC-BA52-5BD5-DA92-B20E0F0F7886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A699BDBC-BA52-5BD5-DA92-B20E0F0F7886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A699BDBC-BA52-5BD5-DA92-B20E0F0F7886}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
