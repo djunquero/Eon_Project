@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eon Project.CSharp.Plugins", "Eon Project.CSharp.Plugins.csproj", "{CC7243B0-4708-D605-9494-F73F34008F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eon Project.CSharp", "Eon Project.CSharp.csproj", "{E72457E3-B81D-7BCC-2588-616BFADD5F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eon Project.CSharp.Editor", "Eon Project.CSharp.Editor.csproj", "{EC5A154B-1CAE-8B5D-2075-885571282E56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7243B0-4708-D605-9494-F73F34008F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7243B0-4708-D605-9494-F73F34008F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7243B0-4708-D605-9494-F73F34008F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7243B0-4708-D605-9494-F73F34008F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72457E3-B81D-7BCC-2588-616BFADD5F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72457E3-B81D-7BCC-2588-616BFADD5F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72457E3-B81D-7BCC-2588-616BFADD5F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72457E3-B81D-7BCC-2588-616BFADD5F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5A154B-1CAE-8B5D-2075-885571282E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5A154B-1CAE-8B5D-2075-885571282E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5A154B-1CAE-8B5D-2075-885571282E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5A154B-1CAE-8B5D-2075-885571282E56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
