@@ -1,8 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 
-public class ActionManager : MonoBehaviour {
+public class ActionManager {
 
     private ArrayList actions;
     int cardCollectionSize;

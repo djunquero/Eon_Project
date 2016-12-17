@@ -1,4 +1,4 @@
-﻿public class CardData {
+﻿class CardData {
 
     private int ID;
     private string cardName;
@@ -11,6 +11,8 @@
     private MoveClass moveClass;
     private bool active;
     private CardGraphic graphic;
+    private int xMov;
+    private int xAtk;
 
     public CardData (int ID){
 
@@ -30,4 +32,6 @@
     public MoveClass getMoveClass() { return this.moveClass; }
     public bool getActive() { return this.active; }
     public CardGraphic getGraphic() { return this.graphic; }
+    public int getXMove() { return this.xMov; }
+    public int getXAtk() { return this.xAtk; }
 }

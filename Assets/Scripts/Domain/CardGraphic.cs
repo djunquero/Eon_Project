@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CardGraphic : MonoBehaviour {
+class CardGraphic : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

@@ -1,9 +1,13 @@
-﻿public class Unit : Card {
+﻿class Unit : CardObject
+{
 
     private Box box;
-    private int xMov=1;
-    private int xAtk=1;
+
     public Unit(int ID,Box box) : base(ID)
+    {
+        this.box = box;
+    }
+    public Unit(CardObject c,Box box) : base(c)
     {
         this.box = box;
     }

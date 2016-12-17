@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-
-public class Deck {
+class Deck {
 
     private List<Card> deck = new List<Card>();
     private Player player;
 
-    public Deck(List<Card> deck)
+    public Deck(List<Card> deck, Player p)
     {
         this.deck = deck;
+        this.player = p;
     }
     public void insertCard(Card c)
     {

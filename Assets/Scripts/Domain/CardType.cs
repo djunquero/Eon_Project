@@ -1,15 +1,15 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿class CardType{
+    public const string HERO = "HERO";
+    public const string UNIT = "UNIT";
+    public const string ABILITY = "ABILITY";
 
-public class CardType : MonoBehaviour {
+    private string type;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public CardType(string s)
+    {
+        if (s != HERO && s != UNIT && s != ABILITY) throw new System.Exception("Unknown CardType");
+        else this.type = s;
+    }
+
+    public string getType() { return this.type; }
 }

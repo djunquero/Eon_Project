@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-public class Hand{
+class Hand{
 
     private int maxCards=10;
     private List<Card> hand=new List<Card>();
@@ -27,5 +27,5 @@ public class Hand{
     public int getMaxCards() { return this.maxCards; }
     public Player getPlayer() { return this.player; }
     public Card getExtra() { return this.extra; }
-    public List<Card> getHand() { return this.hand; }
+    public List<Card> cardList() { return this.hand; }
 }
