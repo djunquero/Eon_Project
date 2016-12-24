@@ -1,0 +1,54 @@
+[
+    {
+        "cardType": "HERO",
+        "cost": 0,
+        "attack": 2,
+        "range": 2,
+        "life": 30,
+        "movement": 4,
+        "moveClass": "DIAGONAL",
+        "active": 1,
+        "graphic": 1,
+        "xMov": 1,
+        "xAtk": 1
+    },
+    {
+        "cardType": "HERO",
+        "cost": 0,
+        "attack": 2,
+        "range": 2,
+        "life": 30,
+        "movement": 4,
+        "moveClass": "DIAGONAL",
+        "active": 1,
+        "graphic": 1,
+        "xMov": 1,
+        "xAtk": 1
+    },
+    {
+        "cardType": "HERO",
+        "cost": 0,
+        "attack": 2,
+        "range": 2,
+        "life": 30,
+        "movement": 4,
+        "moveClass": "DIAGONAL",
+        "active": 1,
+        "graphic": 1,
+        "xMov": 1,
+        "xAtk": 1
+    },
+    {
+        "active": 1,
+        "attack": 2,
+        "cardType": "HERO",
+        "cost": 0,
+        "graphic": 1,
+        "life": 30,
+        "moveClass": "DIAGONAL",
+        "movement": 4,
+        "range": 2,
+        "xAtk": 1,
+        "xMov": 1
+    }
+]

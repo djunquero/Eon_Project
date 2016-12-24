@@ -14,6 +14,8 @@
     protected int xMov;
     protected int xAtk;
 
+    private static CardData = new CardData();
+
     public static ActionManager actionManager = new ActionManager(10);
 
     public CardObject(int newID)

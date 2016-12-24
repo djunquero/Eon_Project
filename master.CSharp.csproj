@@ -234,6 +234,7 @@
     <Compile Include="Assets\Scripts\Actions\ActionManager.cs" />
     <Compile Include="Assets\Scripts\CameraDrag.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />
+    <Compile Include="Assets\Scripts\Control\GameControl.cs" />
     <Compile Include="Assets\Scripts\Domain\Board.cs" />
     <Compile Include="Assets\Scripts\Domain\Box.cs" />
     <Compile Include="Assets\Scripts\Domain\CardData.cs" />

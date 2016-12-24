@@ -6,7 +6,7 @@ class Player{
     private Hand hand;
     private PlayerResources resources;
 
-    public Player(int newID,List<Card> initialDeck)
+    public Player(int newID,List<CardObject> initialDeck)
     {
         this.ID = newID;
         this.deck = new Deck(initialDeck,this);
